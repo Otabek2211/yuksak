@@ -201,7 +201,8 @@ nav{
 
 
 
-.service-text{
+.ceo-text{
+    
     margin-top: 15px;
     margin-bottom: 63px;
     font-weight: 500;
@@ -211,7 +212,7 @@ nav{
 }
 
 
-.service-text::after{
+.ceo-text::after{
     content: '';
     display: block;
     width: 10%;
@@ -220,7 +221,7 @@ nav{
     margin: left;
     transition: 1s;
 }
-.service-text:hover:after{
+.ceo-text:hover:after{
     width: 22%;
 }
 
@@ -234,6 +235,8 @@ nav{
 }
 .ceo-box{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     
 }
 .ceo-info li a{
@@ -249,21 +252,68 @@ nav{
     height: 40px;
 }
 
-.ceo-right img{
-    width: 762px;
-}
+
+
 .web-info{
     font-weight: 300;
     font-size: 26px;
     line-height: 39px;
-    margin-top: 153px;
-    margin-bottom: 30px;
+    margin-top: 114px;
+    margin-bottom: 25px;
     color: #000000;
 }
 .web{
     width: 40px;
     height: 40px;
-    margin-right: 40px;
+   
     
 }
 
+.web img{
+    margin-right: 40px;
+    
+   
+}
+
+.web  .inst:hover{
+    content: url(../img/inst-hover.svg);
+    
+    
+    
+}
+
+.web .facebook:hover{
+    content: url(../img/facebook-hover.svg);
+}
+.web .telegram:hover{
+    content: url(../img/telegram-hover.svg);
+}
+
+
+
+
+.service{
+    margin-top: 240px;
+}
+
+.service-box{
+    display: flex;
+    align-items: center;
+
+}
+.service-left p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.service-left h3{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+    color: #000000;
+}
+.service-right{
+    display: grid;
+}
