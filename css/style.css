@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -16,10 +16,10 @@ html{
 
 
 
-a{
+a {
     text-decoration: none;
 }
-ul, ol{
+ul, ol {
     list-style: none;
 
 }
@@ -29,11 +29,11 @@ ul, ol{
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
 }
-header{
+header {
     min-height: 100vh;
     width: 100%;
     background-image: url(../img/bg.jpg);
@@ -42,20 +42,20 @@ header{
     background-repeat: no-repeat;
     margin-bottom: 120px;
 }
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 33px 0;
 }
-.nav__links ul{
+.nav__links ul {
     display: flex;
     align-items: center;
 }
-.nav__links li{
+.nav__links li {
     margin-right: 60px;
 }
-.nav__links li::after{
+.nav__links li::after {
     content: '';
     display: block;
     width: 0%;
@@ -64,10 +64,10 @@ nav{
     margin: auto;
     transition: 0.5s;
 }
-.nav__links li:hover::after{
+.nav__links li:hover::after {
     width: 100%;
 }
-.nav__links a{
+.nav__links a {
 
     font-weight: 400;
     font-size: 16px;
@@ -84,7 +84,7 @@ nav{
 
 
 
-.text-box{
+.text-box {
     width: 90%;
     color: #fff;
     position: absolute;
@@ -93,7 +93,7 @@ nav{
     transform: translate(-50%, -50%);
     text-align: center;
 }
-.text-box h1{
+.text-box h1 {
     font-weight: 500;
     font-size: 61px;
     line-height: 114%;
@@ -299,6 +299,7 @@ nav{
 .service-box{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
 }
 .service-left p{
@@ -314,6 +315,31 @@ nav{
     line-height: 39px;
     color: #000000;
 }
-.service-right{
+.service-right ul{
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    
+}
+.service-links{
+    background-color: #FFA800;
+    border-radius: 10px;
+    width: 180px;
+    height: 170px;
+    
+
+}
+.service-links img{
+    
+    
+   width: 60px;
+   height: 60px;
+}
+
+.service-links p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
 }
