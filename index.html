@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>yuksak-media</title>
+    
+    
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 </head>
 <body>
@@ -20,7 +24,7 @@
                 <div class="nav__links">
                     <ul class="header__list">
                         <li class="header__items"><a href="#about" class="header__link">biz haqimizda</a></li>
-                        <li class="header__items"><a href="#ceo" class="header__link">Xizmatlarimiz </a></li>
+                        <li class="header__items"><a href="#service" class="header__link">Xizmatlarimiz </a></li>
                         <li class="header__items"><a href="#portfolio" class="header__link">Portfolio</a></li>
                         <li class="header__items"><a href="#ceo" class="header__link">CEO</a></li>
                     </ul>
@@ -85,24 +89,24 @@
                         <div class="ceo-info">
                             <ul>
                                 <li>
-                                    <a class="ceo-info__icon" href="#"><img src="./img/user-profesion.svg" alt=""></a>
+                                    <a class="ceo-info__icon" href="#!"><img src="./img/user-profesion.svg" alt=""></a>
                                     <p class="ceo-info__text">Yuksak media marketing agentligi asoschisi va rahbari;</p>
                                 </li>
                                 <li>
-                                    <a class="ceo-info__icon" href="#"><img src="./img/user.svg" alt=""></a>
+                                    <a class="ceo-info__icon" href="#!"><img src="./img/user.svg" alt=""></a>
                                     <p class="ceo-info__text">IT tadbirkor va marketing bo'yiha amaliyotchi.</p>
                                 </li>
                                 <li>
-                                    <a class="ceo-info__icon" href="#"><img src="./img/user-setting.svg" alt=""></a>
+                                    <a class="ceo-info__icon" href="#!"><img src="./img/user-setting.svg" alt=""></a>
                                     <p class="ceo-info__text">Marketing va IT productlar bo'yicha 3 yillik tajriba ega mutaxassis</p>
                                 </li>
                                 <li>
-                                    <a class="ceo-info__icon" href="#"><img src="./img/user-ster.svg" alt=""></a>
+                                    <a class="ceo-info__icon" href="#!"><img src="./img/user-ster.svg" alt=""></a>
                                     <p class="ceo-info__text">25+ muvoffaqiyatli loyihalar;</p>
                                 </li>
                             </ul>
                             <p class="web-info">Ijtimoiy tarmoqlar:</p>
-                            <a class="web" href="#"><img class="inst" src="./img/inst.svg" alt="instagram"></a>
+                            <a class="web" href="#!"><img class="inst" src="./img/inst.svg" alt="instagram"></a>
                             <a class="web" href="https://www.facebook.com/yuksakmedia/"><img class="facebook" src="./img/facebook.svg" alt="facebook"></a>
                             <a class="web" href="https://t.me/yuksakmedia" target="_blank"><img class="telegram" src="./img/telegram.svg" alt="telegram"></a>
                         </div>
@@ -120,38 +124,42 @@
                 <h3 class="nav-title">Xizmatlar</h3>
                 <h2 class="nav-text">Raqamli marketing xizmatlari</h2>
                 <div class="service-box">
-                    <div class="service-left">
+                    <div id="telegram" class="service-left">
                         <img src="../img/service-telegram.svg" alt="telegram bot">
                         <h3>Telegram Bot yaratish</h3>
                         <p>Sifatli veb-sayt sizning biznesingizni Internetda targ'ib qilish uchun asosdir. Bu kompaniyaning imidjini yaratadi va 24/7 savdolaringizni oshiradi. Biz siz uchun biznesni rivojlantirishda katta yordam beradigan ishchi vositani yaratamiz. </p>
-                        <a href="#">Buyurtma berish</a>
-                        <a href="#">Batafsil</a>
+                        <div class="buy-box">
+                            <a href="#!" class="buy">Buyurtma berish</a>
+                            <a href="#!" class="buy-all">Batafsil</a>
+                        </div>
+                      
                     </div>
+
                     
-                    <div class="service-right">
+                    <div id="myDIV" class="service-right">
                         <ul>
-                            <li class="service-links">
-                                <a href="#"><img src="./img/backend.svg" alt="backend"></a>
+                            <li class="btn service-links">
+                                <a  href="#backend"><img src="./img/backend.svg" alt="backend"></a>
                                 <p>backend</p>
                             </li>
-                            <li class="service-links">
-                                <a href="#"><img src="./img/service-telegram.svg" alt="backend"></a>
+                            <li class="btn service-link active">
+                                <a  href="#telegram"><img src="./img/service-telegram.svg" alt="backend"></a>
                                 <p>Telegram  bot yaratish</p>
                             </li>
-                            <li class="service-links">
-                                <a href="#"><img src="./img/service-marceting.svg" alt="backend"></a>
+                            <li class=" btn  service-link">
+                                <a  href="#!"><img src="./img/service-marceting.svg" alt="backend"></a>
                                 <p>Marketing</p>
                             </li>
-                            <li class="service-links">
-                                <a href="#"><img src="./img/service-mrcating.svg" alt="backend"></a>
+                            <li class=" btn service-links">
+                                <a  href="#!"><img src="./img/service-mrcating.svg" alt="backend"></a>
                                 <p>Marketing</p>
                             </li>
-                            <li class="service-links">
-                                <a href="#"><img src="./img/target.svg" alt="backend"></a>
+                            <li class="btn service-links">
+                                <a  href="#!"><img src="./img/target.svg" alt="backend"></a>
                                 <p>Target</p>
                             </li>
-                            <li class="service-links">
-                                <a href="#"><img src="./img/service-web.svg" alt="backend"></a>
+                            <li class="btn service-links">
+                                <a  href="#!"><img src="./img/service-web.svg" alt="backend"></a>
                                 <p>Web Dizayn, Landing Page</p>
                             </li>
                         </ul>
@@ -161,9 +169,119 @@
             </div>
 
         </section>
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <h3 class="nav-title">portfolio</h3>
+                <h2 class="ceo-text">Bizning ishlarimiz</h2>
+                <div class="portfolio-box">
+                    <ul class="element">
+                        <li>
+                            <a href="#">
+                                <img src="./img/portfolio-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/portfolio-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/portfolio-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/portfolio-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/portfolio-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/portfolio-6.jpg" alt="">
+                            </a>
+                        </li>
+                       
+                       
+                    </ul>
+                    <a type="submit"  href="#!" class="next">Qolgan ishlarni ko‘rish</a>
+                </div>
+               
+            </div>
+        </section>
+        <section class="portner">
+            <div class="container">
+                <h3 class="nav-title">xamkorlar</h3>
+                <h2 class="ceo-text">Bizning xamkorlarimiz</h2>
+
+                <ul class="portner__menu">
+                    <li class="portner__item"><img src="./img/portner-1.jpg" alt="portner-1" class="portner__img"></li>
+                    <li class="portner__item"><img src="./img/portner-2.jpg" alt="portner-2" class="portner__img"></li>
+                    <li class="portner__item"><img src="./img/portner-3.jpg" alt="portner-3" class="portner__img"></li>
+                    <li class="portner__item"><img src="./img/portner-4.jpg" alt="portner-4" class="portner__img"></li>
+                    <li class="portner__item"><img src="./img/portner-5.jpg" alt="portner-5" class="portner__img"></li>
+                    <li class="portner__item"><img src="./img/portner-6.jpg" alt="portner-6" class="portner__img"></li>
+                    <li class="portner__item"><img src="./img/portner-7.jpg" alt="portner-7" class="portner__img"></li>
+                    <li class="portner__item"><img src="./img/portner-8.jpg" alt="portner-8" class="portner__img"></li>
+                </ul>
+                
+            </div>
+        </section>
+        <section class="review">
+            <div class="container">
+                <h3 class="nav-title">izohlar</h3>
+                <h2 class="ceo-text">Mijozlarimizning fikri</h2>
+                <div class="reviyu-slider">
+                    <div class="review__menu">
+                        <button class="slider-left">
+                            <img src="./img/left.svg" alt="">
+                        </button>
+                        <div class="review__box">
+                            <img src="./img/review-1.png" alt="review">
+                            <p class="review__info">“Biz qariyb ikki yildan beri qidiruv tizimini optimallashtirish ehtiyojlari uchun Be Native guruhidan foydalanamiz. Ular bizning onlayn mavjudligimizni onlayn oshirishga, shuningdek, ijtimoiy ehtiyojlari tarmoqlardagi mavjudligimiz va xususiy maktab bozorida qanday o'sishimiz mumkinligini yaxshiroq tushunishimizga yordam berishdi”.</p>
+                            <p class="review__name">Farrux Jamolov</p>
+                            <p class="review__prof">Play4Fun, CEO</p>
+                        </div>
+                        <div class="review__box">
+                            <img src="./img/review-1.png" alt="review">
+                            <p class="review__info">“Biz qariyb ikki yildan beri qidiruv tizimini optimallashtirish ehtiyojlari uchun Be Native guruhidan foydalanamiz. Ular bizning onlayn mavjudligimizni onlayn oshirishga, shuningdek, ijtimoiy ehtiyojlari tarmoqlardagi mavjudligimiz va xususiy maktab bozorida qanday o'sishimiz mumkinligini yaxshiroq tushunishimizga yordam berishdi”.</p>
+                            <p class="review__name">Farrux Jamolov</p>
+                            <p class="review__prof">Play4Fun, CEO</p>
+                        </div>
+                        <div class="review__box">
+                            <img src="./img/review-1.png" alt="review">
+                            <p class="review__info">“Biz qariyb ikki yildan beri qidiruv tizimini optimallashtirish ehtiyojlari uchun Be Native guruhidan foydalanamiz. Ular bizning onlayn mavjudligimizni onlayn oshirishga, shuningdek, ijtimoiy ehtiyojlari tarmoqlardagi mavjudligimiz va xususiy maktab bozorida qanday o'sishimiz mumkinligini yaxshiroq tushunishimizga yordam berishdi”.</p>
+                            <p class="review__name">Farrux Jamolov</p>
+                            <p class="review__prof">Play4Fun, CEO</p>
+                        </div>
+                        <button class="slider-right">
+                            <img src="./img/right.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+
+               
+                    
+                
+               
+               
+
+
+            </div>
+                    <button class="slider"></button>
+                    <button class="slider"></button>
+                    <button class="slider"></button>
+                
+        </section>
     </main>
-
-
+    <!-- <script src="./js/jquery-1.11.0.min.js"></script>
+    <script src="./js/jquery-migrate-1.2.1.min.js"></script> -->
+    <!-- <script src="./js/slick.js"></script> -->
     <script src="./js/script.js"></script>
+   
 </body>
 </html>
